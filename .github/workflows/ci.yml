@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install system compiler
+        run: sudo apt-get update && sudo apt-get install -y build-essential
+      - name: Install Python dependencies
+        run: python -m pip install -r requirements.txt -r requirements-dashboard.txt
+      - name: Build native implementations
+        run: python build_native.py
+      - name: Run project tests
+        run: python -m pytest tests -q
+
+  esp32-compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install PlatformIO
+        run: python -m pip install platformio
+      - name: Prepare sketch
+        run: python3 prepare_arduino.py
+      - name: Compile legacy diagnostic sketch
+        run: pio run -e esp32dev
+      - name: Prepare Bluetooth and Wi-Fi firmware
+        run: python3 prepare_bluetooth.py
+      - name: Compile ESP32 B Bluetooth/Wi-Fi relay
+        run: pio run -d firmware/esp32_wifi_relay
+      - name: Compile ESP32 A Bluetooth audio sender
+        run: pio run -d firmware/esp32_bt_sender

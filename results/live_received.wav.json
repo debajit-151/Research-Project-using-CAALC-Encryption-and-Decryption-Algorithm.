@@ -1,0 +1,72 @@
+{
+  "timestamp": "2026-11-23T16:31:57+05:30",
+  "algorithm": "caalc",
+  "session_id": "aa2c6f2b5478efb7",
+  "capture_seconds": 19,
+  "recovered_audio_seconds": 19.12,
+  "authenticated_frames": 476,
+  "rejected_packets": 0,
+  "rejection_reasons": {},
+  "concealed_missing_frames": 168,
+  "packet_loss_percent": 0.21,
+  "late_frames": 166,
+  "pending_at_stop": 0,
+  "ciphertext_udp_bytes": 325584,
+  "mean_desktop_verify_decrypt_us": 29699.59,
+  "sender_stop": "STOPPED frames=477 lost=0",
+  "relay_wifi_ready": true,
+  "bluetooth_peer_discovered": true,
+  "last_relay_counters": "RELAY_STATUS forwarded=477 invalid=0 udp_errors=0 bt_dropped_bytes=0 bt_buffered=0 rssi=-53 rx_buffered=0 heap=42896",
+  "final_relay_counters": "RELAY_STATUS forwarded=477 invalid=0 udp_errors=0 bt_dropped_bytes=0 bt_buffered=0 rssi=-53 rx_buffered=0 heap=42896",
+  "sender_firmware": "sender-20261122.2",
+  "relay_firmware": "relay-20261122.2",
+  "pipeline_stages": {
+    "microphone": true,
+    "encryption": true,
+    "bluetooth": true,
+    "relay": true,
+    "wifi": true,
+    "authentication": true,
+    "wav": true
+  },
+  "microphone": {
+    "mic_peak": 14814,
+    "mic_rms": 2813,
+    "i2s_errors": 0
+  },
+  "sender_frames_reported": 477,
+  "audio_quality": {
+    "samples": 152960,
+    "peak": 16719,
+    "rms": 1935.45,
+    "clipped_percent": 0.0
+  },
+  "network": {
+    "forwarded": 477,
+    "invalid": 0,
+    "udp_errors": 0,
+    "bt_dropped_bytes": 0,
+    "bt_buffered": 0,
+    "rssi": -53,
+    "heap": 42896
+  },
+  "wifi_rssi_dbm": -53,
+  "tamper_demo": {
+    "tampered_packet_rejected": true,
+    "audio_released": false,
+    "scope": "Local self-test; live capture was not modified."
+  },
+  "result": "PASS",
+  "output_wav": "results\\live_received.wav",
+  "authenticated_raw_wav": "results\\live_received_authenticated_raw.wav",
+  "audio_conditioning": {
+    "input_peak": 15565.5,
+    "input_rms": 1560.2,
+    "gain_x": 1.799,
+    "output_peak": 28000,
+    "output_rms": 2806.6,
+    "high_pass_hz": 40.0,
+    "note": "Applied only after every frame passed authenticated decryption."
+  },
+  "key_saved": false
+}

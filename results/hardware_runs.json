@@ -1,0 +1,945 @@
+[
+  {
+    "timestamp": "2026-11-22T23:28:38+05:30",
+    "algorithm": "ascon",
+    "session_id": "578538716b421060",
+    "capture_seconds": 15,
+    "recovered_audio_seconds": 15.32,
+    "authenticated_frames": 378,
+    "rejected_packets": 0,
+    "rejection_reasons": {},
+    "concealed_missing_frames": 123,
+    "packet_loss_percent": 0,
+    "late_frames": 118,
+    "pending_at_stop": 0,
+    "ciphertext_udp_bytes": 258552,
+    "mean_desktop_verify_decrypt_us": 3224.94,
+    "sender_stop": "STOPPED frames=378 lost=0",
+    "relay_wifi_ready": true,
+    "bluetooth_peer_discovered": true,
+    "last_relay_counters": "RELAY_STATUS forwarded=378 invalid=0 udp_errors=0 bt_dropped_bytes=0 bt_buffered=0 rssi=-44 rx_buffered=0 heap=42452",
+    "final_relay_counters": "RELAY_STATUS forwarded=378 invalid=0 udp_errors=0 bt_dropped_bytes=0 bt_buffered=0 rssi=-44 rx_buffered=0 heap=42452",
+    "sender_firmware": "sender-20261122.2",
+    "relay_firmware": "relay-20261122.2",
+    "pipeline_stages": {
+      "microphone": true,
+      "encryption": true,
+      "bluetooth": true,
+      "relay": true,
+      "wifi": true,
+      "authentication": true,
+      "wav": true
+    },
+    "microphone": {
+      "mic_peak": 15451,
+      "mic_rms": 2135,
+      "i2s_errors": 0
+    },
+    "sender_frames_reported": 378,
+    "audio_quality": {
+      "samples": 122560,
+      "peak": 32768,
+      "rms": 4371.18,
+      "clipped_percent": 0.0286
+    },
+    "network": {
+      "forwarded": 378,
+      "invalid": 0,
+      "udp_errors": 0,
+      "bt_dropped_bytes": 0,
+      "bt_buffered": 0,
+      "rssi": -44,
+      "heap": 42452
+    },
+    "wifi_rssi_dbm": -44,
+    "tamper_demo": {
+      "tampered_packet_rejected": true,
+      "audio_released": false,
+      "scope": "Local self-test; live capture was not modified."
+    },
+    "result": "PASS",
+    "output_wav": "results\\live_received.wav",
+    "authenticated_raw_wav": "results\\live_received_authenticated_raw.wav",
+    "audio_conditioning": {
+      "input_peak": 34654.4,
+      "input_rms": 4107.1,
+      "gain_x": 0.808,
+      "output_peak": 28000,
+      "output_rms": 3318.4,
+      "high_pass_hz": 40.0,
+      "note": "Applied only after every frame passed authenticated decryption."
+    },
+    "key_saved": false
+  },
+  {
+    "timestamp": "2026-11-22T23:29:58+05:30",
+    "algorithm": "ascon",
+    "session_id": "82141559ae8ee95b",
+    "capture_seconds": 41,
+    "recovered_audio_seconds": 41.32,
+    "authenticated_frames": 1027,
+    "rejected_packets": 0,
+    "rejection_reasons": {},
+    "concealed_missing_frames": 10,
+    "packet_loss_percent": 0.1,
+    "late_frames": 4,
+    "pending_at_stop": 0,
+    "ciphertext_udp_bytes": 702468,
+    "mean_desktop_verify_decrypt_us": 2796.2,
+    "sender_stop": "STOPPED frames=1028 lost=0",
+    "relay_wifi_ready": true,
+    "bluetooth_peer_discovered": true,
+    "last_relay_counters": "RELAY_STATUS forwarded=1028 invalid=0 udp_errors=0 bt_dropped_bytes=0 bt_buffered=0 rssi=-51 rx_buffered=0 heap=42504",
+    "final_relay_counters": "RELAY_STATUS forwarded=1028 invalid=0 udp_errors=0 bt_dropped_bytes=0 bt_buffered=0 rssi=-51 rx_buffered=0 heap=42504",
+    "sender_firmware": "sender-20261122.2",
+    "relay_firmware": "relay-20261122.2",
+    "pipeline_stages": {
+      "microphone": true,
+      "encryption": true,
+      "bluetooth": true,
+      "relay": true,
+      "wifi": true,
+      "authentication": true,
+      "wav": true
+    },
+    "microphone": {
+      "mic_peak": 8933,
+      "mic_rms": 2105,
+      "i2s_errors": 0
+    },
+    "sender_frames_reported": 1028,
+    "audio_quality": {
+      "samples": 330560,
+      "peak": 32768,
+      "rms": 4054.54,
+      "clipped_percent": 0.0947
+    },
+    "network": {
+      "forwarded": 1028,
+      "invalid": 0,
+      "udp_errors": 0,
+      "bt_dropped_bytes": 0,
+      "bt_buffered": 0,
+      "rssi": -51,
+      "heap": 42504
+    },
+    "wifi_rssi_dbm": -51,
+    "tamper_demo": {
+      "tampered_packet_rejected": true,
+      "audio_released": false,
+      "scope": "Local self-test; live capture was not modified."
+    },
+    "result": "PASS",
+    "output_wav": "results\\live_received.wav",
+    "authenticated_raw_wav": "results\\live_received_authenticated_raw.wav",
+    "audio_conditioning": {
+      "input_peak": 36758.0,
+      "input_rms": 3763.5,
+      "gain_x": 0.762,
+      "output_peak": 28000,
+      "output_rms": 2866.8,
+      "high_pass_hz": 40.0,
+      "note": "Applied only after every frame passed authenticated decryption."
+    },
+    "key_saved": false
+  },
+  {
+    "timestamp": "2026-11-22T23:33:05+05:30",
+    "algorithm": "ascon",
+    "session_id": "308ecf9678e01096",
+    "capture_seconds": 15,
+    "recovered_audio_seconds": 15.28,
+    "authenticated_frames": 380,
+    "rejected_packets": 0,
+    "rejection_reasons": {},
+    "concealed_missing_frames": 10,
+    "packet_loss_percent": 0,
+    "late_frames": 8,
+    "pending_at_stop": 0,
+    "ciphertext_udp_bytes": 259920,
+    "mean_desktop_verify_decrypt_us": 2694.91,
+    "sender_stop": "STOPPED frames=380 lost=0",
+    "relay_wifi_ready": true,
+    "bluetooth_peer_discovered": true,
+    "last_relay_counters": "RELAY_STATUS forwarded=380 invalid=0 udp_errors=0 bt_dropped_bytes=0 bt_buffered=0 rssi=-55 rx_buffered=0 heap=42472",
+    "final_relay_counters": "RELAY_STATUS forwarded=380 invalid=0 udp_errors=0 bt_dropped_bytes=0 bt_buffered=0 rssi=-55 rx_buffered=0 heap=42472",
+    "sender_firmware": "sender-20261122.2",
+    "relay_firmware": "relay-20261122.2",
+    "pipeline_stages": {
+      "microphone": true,
+      "encryption": true,
+      "bluetooth": true,
+      "relay": true,
+      "wifi": true,
+      "authentication": true,
+      "wav": true
+    },
+    "microphone": {
+      "mic_peak": 14701,
+      "mic_rms": 2811,
+      "i2s_errors": 0
+    },
+    "sender_frames_reported": 380,
+    "audio_quality": {
+      "samples": 122240,
+      "peak": 14701,
+      "rms": 1911.47,
+      "clipped_percent": 0.0
+    },
+    "network": {
+      "forwarded": 380,
+      "invalid": 0,
+      "udp_errors": 0,
+      "bt_dropped_bytes": 0,
+      "bt_buffered": 0,
+      "rssi": -55,
+      "heap": 42472
+    },
+    "wifi_rssi_dbm": -55,
+    "tamper_demo": {
+      "tampered_packet_rejected": true,
+      "audio_released": false,
+      "scope": "Local self-test; live capture was not modified."
+    },
+    "result": "PASS",
+    "output_wav": "results\\live_received.wav",
+    "authenticated_raw_wav": "results\\live_received_authenticated_raw.wav",
+    "audio_conditioning": {
+      "input_peak": 13826.0,
+      "input_rms": 1513.7,
+      "gain_x": 2.025,
+      "output_peak": 28000,
+      "output_rms": 3065.6,
+      "high_pass_hz": 40.0,
+      "note": "Applied only after every frame passed authenticated decryption."
+    },
+    "key_saved": false
+  },
+  {
+    "timestamp": "2026-11-23T02:17:09+05:30",
+    "algorithm": "ascon",
+    "session_id": "5971eade71795509",
+    "capture_seconds": 18,
+    "recovered_audio_seconds": 8.24,
+    "authenticated_frames": 0,
+    "rejected_packets": 204,
+    "rejection_reasons": {
+      "Outside jitter window": 204
+    },
+    "concealed_missing_frames": 206,
+    "packet_loss_percent": 100.0,
+    "late_frames": 0,
+    "pending_at_stop": 0,
+    "ciphertext_udp_bytes": 139536,
+    "mean_desktop_verify_decrypt_us": 4355.61,
+    "sender_stop": "STOPPED frames=453 lost=0",
+    "relay_wifi_ready": true,
+    "bluetooth_peer_discovered": true,
+    "last_relay_counters": "RELAY_STATUS forwarded=210 invalid=0 udp_errors=243 bt_dropped_bytes=0 bt_buffered=0 rssi=-53 rx_buffered=0 heap=42432",
+    "final_relay_counters": "RELAY_STATUS forwarded=210 invalid=0 udp_errors=243 bt_dropped_bytes=0 bt_buffered=0 rssi=-53 rx_buffered=0 heap=42432",
+    "sender_firmware": "sender-20261122.2",
+    "relay_firmware": "relay-20261122.2",
+    "pipeline_stages": {
+      "microphone": true,
+      "encryption": true,
+      "bluetooth": true,
+      "relay": true,
+      "wifi": true,
+      "authentication": false,
+      "wav": true
+    },
+    "microphone": {
+      "mic_peak": 21561,
+      "mic_rms": 3320,
+      "i2s_errors": 0
+    },
+    "sender_frames_reported": 453,
+    "audio_quality": {
+      "samples": 65920,
+      "peak": 0,
+      "rms": 0.0,
+      "clipped_percent": 0.0
+    },
+    "network": {
+      "forwarded": 210,
+      "invalid": 0,
+      "udp_errors": 243,
+      "bt_dropped_bytes": 0,
+      "bt_buffered": 0,
+      "rssi": -53,
+      "heap": 42432
+    },
+    "wifi_rssi_dbm": -53,
+    "tamper_demo": {
+      "tampered_packet_rejected": true,
+      "audio_released": false,
+      "scope": "Local self-test; live capture was not modified."
+    },
+    "result": "PARTIAL",
+    "output_wav": "results\\live_received.wav",
+    "authenticated_raw_wav": "results\\live_received_authenticated_raw.wav",
+    "audio_conditioning": {
+      "input_peak": 0.0,
+      "input_rms": 0.0,
+      "gain_x": 1.0,
+      "output_peak": 0,
+      "output_rms": 0.0,
+      "high_pass_hz": 40.0,
+      "note": "Applied only after every frame passed authenticated decryption."
+    },
+    "key_saved": false
+  },
+  {
+    "timestamp": "2026-11-23T02:17:58+05:30",
+    "algorithm": "ascon",
+    "session_id": "73fd609ff1efd9e7",
+    "capture_seconds": 18,
+    "recovered_audio_seconds": 18.28,
+    "authenticated_frames": 454,
+    "rejected_packets": 0,
+    "rejection_reasons": {},
+    "concealed_missing_frames": 3,
+    "packet_loss_percent": 0,
+    "late_frames": 0,
+    "pending_at_stop": 0,
+    "ciphertext_udp_bytes": 310536,
+    "mean_desktop_verify_decrypt_us": 4740.06,
+    "sender_stop": "STOPPED frames=454 lost=0",
+    "relay_wifi_ready": true,
+    "bluetooth_peer_discovered": true,
+    "last_relay_counters": "RELAY_STATUS forwarded=454 invalid=0 udp_errors=0 bt_dropped_bytes=0 bt_buffered=0 rssi=-50 rx_buffered=0 heap=42520",
+    "final_relay_counters": "RELAY_STATUS forwarded=454 invalid=0 udp_errors=0 bt_dropped_bytes=0 bt_buffered=0 rssi=-50 rx_buffered=0 heap=42520",
+    "sender_firmware": "sender-20261122.2",
+    "relay_firmware": "relay-20261122.2",
+    "pipeline_stages": {
+      "microphone": true,
+      "encryption": true,
+      "bluetooth": true,
+      "relay": true,
+      "wifi": true,
+      "authentication": true,
+      "wav": true
+    },
+    "microphone": {
+      "mic_peak": 12765,
+      "mic_rms": 1616,
+      "i2s_errors": 0
+    },
+    "sender_frames_reported": 454,
+    "audio_quality": {
+      "samples": 146240,
+      "peak": 32768,
+      "rms": 4389.55,
+      "clipped_percent": 0.0362
+    },
+    "network": {
+      "forwarded": 454,
+      "invalid": 0,
+      "udp_errors": 0,
+      "bt_dropped_bytes": 0,
+      "bt_buffered": 0,
+      "rssi": -50,
+      "heap": 42520
+    },
+    "wifi_rssi_dbm": -50,
+    "tamper_demo": {
+      "tampered_packet_rejected": true,
+      "audio_released": false,
+      "scope": "Local self-test; live capture was not modified."
+    },
+    "result": "PASS",
+    "output_wav": "results\\live_received.wav",
+    "authenticated_raw_wav": "results\\live_received_authenticated_raw.wav",
+    "audio_conditioning": {
+      "input_peak": 34249.0,
+      "input_rms": 4261.6,
+      "gain_x": 0.818,
+      "output_peak": 28000,
+      "output_rms": 3484.0,
+      "high_pass_hz": 40.0,
+      "note": "Applied only after every frame passed authenticated decryption."
+    },
+    "key_saved": false
+  },
+  {
+    "timestamp": "2026-11-23T02:29:54+05:30",
+    "algorithm": "ascon",
+    "session_id": "f57cd390206c2407",
+    "capture_seconds": 15,
+    "recovered_audio_seconds": 7.92,
+    "authenticated_frames": 0,
+    "rejected_packets": 196,
+    "rejection_reasons": {
+      "Outside jitter window": 196
+    },
+    "concealed_missing_frames": 198,
+    "packet_loss_percent": 100.0,
+    "late_frames": 0,
+    "pending_at_stop": 0,
+    "ciphertext_udp_bytes": 134064,
+    "mean_desktop_verify_decrypt_us": 4562.04,
+    "sender_stop": "STOPPED frames=377 lost=0",
+    "relay_wifi_ready": true,
+    "bluetooth_peer_discovered": true,
+    "last_relay_counters": "RELAY_STATUS forwarded=199 invalid=0 udp_errors=178 bt_dropped_bytes=0 bt_buffered=0 rssi=-43 rx_buffered=0 heap=42496",
+    "final_relay_counters": "RELAY_STATUS forwarded=199 invalid=0 udp_errors=178 bt_dropped_bytes=0 bt_buffered=0 rssi=-43 rx_buffered=0 heap=42496",
+    "sender_firmware": "sender-20261122.2",
+    "relay_firmware": "relay-20261122.2",
+    "pipeline_stages": {
+      "microphone": true,
+      "encryption": true,
+      "bluetooth": true,
+      "relay": true,
+      "wifi": true,
+      "authentication": false,
+      "wav": true
+    },
+    "microphone": {
+      "mic_peak": 8853,
+      "mic_rms": 757,
+      "i2s_errors": 0
+    },
+    "sender_frames_reported": 377,
+    "audio_quality": {
+      "samples": 63360,
+      "peak": 0,
+      "rms": 0.0,
+      "clipped_percent": 0.0
+    },
+    "network": {
+      "forwarded": 199,
+      "invalid": 0,
+      "udp_errors": 178,
+      "bt_dropped_bytes": 0,
+      "bt_buffered": 0,
+      "rssi": -43,
+      "heap": 42496
+    },
+    "wifi_rssi_dbm": -43,
+    "tamper_demo": {
+      "tampered_packet_rejected": true,
+      "audio_released": false,
+      "scope": "Local self-test; live capture was not modified."
+    },
+    "result": "PARTIAL",
+    "output_wav": "results\\live_received.wav",
+    "authenticated_raw_wav": "results\\live_received_authenticated_raw.wav",
+    "audio_conditioning": {
+      "input_peak": 0.0,
+      "input_rms": 0.0,
+      "gain_x": 1.0,
+      "output_peak": 0,
+      "output_rms": 0.0,
+      "high_pass_hz": 40.0,
+      "note": "Applied only after every frame passed authenticated decryption."
+    },
+    "key_saved": false
+  },
+  {
+    "timestamp": "2026-11-23T02:30:48+05:30",
+    "algorithm": "ascon",
+    "session_id": "b4cda32149a776d6",
+    "capture_seconds": 17,
+    "recovered_audio_seconds": 11.24,
+    "authenticated_frames": 0,
+    "rejected_packets": 279,
+    "rejection_reasons": {
+      "Outside jitter window": 279
+    },
+    "concealed_missing_frames": 281,
+    "packet_loss_percent": 100.0,
+    "late_frames": 0,
+    "pending_at_stop": 0,
+    "ciphertext_udp_bytes": 190836,
+    "mean_desktop_verify_decrypt_us": 4954.2,
+    "sender_stop": "STOPPED frames=428 lost=0",
+    "relay_wifi_ready": true,
+    "bluetooth_peer_discovered": true,
+    "last_relay_counters": "RELAY_STAT forwarded=200 invalid=0 udp_errors=146 bt_dropped_bytes=0 rssi=-31 heap=40732",
+    "final_relay_counters": "Relay did not return exact final counters.",
+    "sender_firmware": "sender-20261122.2",
+    "relay_firmware": "relay-20261122.2",
+    "pipeline_stages": {
+      "microphone": true,
+      "encryption": true,
+      "bluetooth": true,
+      "relay": true,
+      "wifi": true,
+      "authentication": false,
+      "wav": true
+    },
+    "microphone": {
+      "mic_peak": 1057,
+      "mic_rms": 282,
+      "i2s_errors": 0
+    },
+    "sender_frames_reported": 428,
+    "audio_quality": {
+      "samples": 89920,
+      "peak": 0,
+      "rms": 0.0,
+      "clipped_percent": 0.0
+    },
+    "network": {
+      "forwarded": 200,
+      "invalid": 0,
+      "udp_errors": 146,
+      "bt_dropped_bytes": 0,
+      "rssi": -31,
+      "heap": 40732
+    },
+    "wifi_rssi_dbm": -31,
+    "tamper_demo": {
+      "tampered_packet_rejected": true,
+      "audio_released": false,
+      "scope": "Local self-test; live capture was not modified."
+    },
+    "result": "PARTIAL",
+    "output_wav": "results\\live_received.wav",
+    "authenticated_raw_wav": "results\\live_received_authenticated_raw.wav",
+    "audio_conditioning": {
+      "input_peak": 0.0,
+      "input_rms": 0.0,
+      "gain_x": 1.0,
+      "output_peak": 0,
+      "output_rms": 0.0,
+      "high_pass_hz": 40.0,
+      "note": "Applied only after every frame passed authenticated decryption."
+    },
+    "key_saved": false
+  },
+  {
+    "timestamp": "2026-11-23T02:33:18+05:30",
+    "algorithm": "ascon",
+    "session_id": "00ab893121782ecb",
+    "capture_seconds": 15,
+    "recovered_audio_seconds": 5.52,
+    "authenticated_frames": 0,
+    "rejected_packets": 137,
+    "rejection_reasons": {
+      "Outside jitter window": 137
+    },
+    "concealed_missing_frames": 138,
+    "packet_loss_percent": 100.0,
+    "late_frames": 0,
+    "pending_at_stop": 0,
+    "ciphertext_udp_bytes": 93708,
+    "mean_desktop_verify_decrypt_us": 4591.87,
+    "sender_stop": "STOPPED frames=377 lost=0",
+    "relay_wifi_ready": true,
+    "bluetooth_peer_discovered": true,
+    "last_relay_counters": "RELAY_STATUS forwarded=143 invalid=0 udp_errors=234 bt_dropped_bytes=0 bt_buffered=0 rssi=-33 rx_buffered=0 heap=42524",
+    "final_relay_counters": "RELAY_STATUS forwarded=143 invalid=0 udp_errors=234 bt_dropped_bytes=0 bt_buffered=0 rssi=-33 rx_buffered=0 heap=42524",
+    "sender_firmware": "sender-20261122.2",
+    "relay_firmware": "relay-20261122.2",
+    "pipeline_stages": {
+      "microphone": true,
+      "encryption": true,
+      "bluetooth": true,
+      "relay": true,
+      "wifi": true,
+      "authentication": false,
+      "wav": true
+    },
+    "microphone": {
+      "mic_peak": 31018,
+      "mic_rms": 5050,
+      "i2s_errors": 0
+    },
+    "sender_frames_reported": 377,
+    "audio_quality": {
+      "samples": 44160,
+      "peak": 0,
+      "rms": 0.0,
+      "clipped_percent": 0.0
+    },
+    "network": {
+      "forwarded": 143,
+      "invalid": 0,
+      "udp_errors": 234,
+      "bt_dropped_bytes": 0,
+      "bt_buffered": 0,
+      "rssi": -33,
+      "heap": 42524
+    },
+    "wifi_rssi_dbm": -33,
+    "tamper_demo": {
+      "tampered_packet_rejected": true,
+      "audio_released": false,
+      "scope": "Local self-test; live capture was not modified."
+    },
+    "result": "PARTIAL",
+    "output_wav": "results\\live_received.wav",
+    "authenticated_raw_wav": "results\\live_received_authenticated_raw.wav",
+    "audio_conditioning": {
+      "input_peak": 0.0,
+      "input_rms": 0.0,
+      "gain_x": 1.0,
+      "output_peak": 0,
+      "output_rms": 0.0,
+      "high_pass_hz": 40.0,
+      "note": "Applied only after every frame passed authenticated decryption."
+    },
+    "key_saved": false
+  },
+  {
+    "timestamp": "2026-11-23T02:39:57+05:30",
+    "algorithm": "ascon",
+    "session_id": "9ce89b41e38e34bc",
+    "capture_seconds": 33,
+    "recovered_audio_seconds": 33.28,
+    "authenticated_frames": 824,
+    "rejected_packets": 0,
+    "rejection_reasons": {},
+    "concealed_missing_frames": 38,
+    "packet_loss_percent": 0.36,
+    "late_frames": 30,
+    "pending_at_stop": 0,
+    "ciphertext_udp_bytes": 563616,
+    "mean_desktop_verify_decrypt_us": 4096.75,
+    "sender_stop": "STOPPED frames=827 lost=0",
+    "relay_wifi_ready": true,
+    "bluetooth_peer_discovered": true,
+    "last_relay_counters": "RELAY_STATUS forwarded=827 invalid=0 udp_errors=0 bt_dropped_bytes=0 bt_buffered=0 rssi=-36 rx_buffered=0 heap=42464",
+    "final_relay_counters": "RELAY_STATUS forwarded=827 invalid=0 udp_errors=0 bt_dropped_bytes=0 bt_buffered=0 rssi=-36 rx_buffered=0 heap=42464",
+    "sender_firmware": "sender-20261122.2",
+    "relay_firmware": "relay-20261122.2",
+    "pipeline_stages": {
+      "microphone": true,
+      "encryption": true,
+      "bluetooth": true,
+      "relay": true,
+      "wifi": true,
+      "authentication": true,
+      "wav": true
+    },
+    "microphone": {
+      "mic_peak": 1680,
+      "mic_rms": 177,
+      "i2s_errors": 0
+    },
+    "sender_frames_reported": 827,
+    "audio_quality": {
+      "samples": 266240,
+      "peak": 32768,
+      "rms": 3510.19,
+      "clipped_percent": 0.0041
+    },
+    "network": {
+      "forwarded": 827,
+      "invalid": 0,
+      "udp_errors": 0,
+      "bt_dropped_bytes": 0,
+      "bt_buffered": 0,
+      "rssi": -36,
+      "heap": 42464
+    },
+    "wifi_rssi_dbm": -36,
+    "tamper_demo": {
+      "tampered_packet_rejected": true,
+      "audio_released": false,
+      "scope": "Local self-test; live capture was not modified."
+    },
+    "result": "PASS",
+    "output_wav": "results\\live_received.wav",
+    "authenticated_raw_wav": "results\\live_received_authenticated_raw.wav",
+    "audio_conditioning": {
+      "input_peak": 33581.1,
+      "input_rms": 3408.9,
+      "gain_x": 0.834,
+      "output_peak": 28000,
+      "output_rms": 2842.3,
+      "high_pass_hz": 40.0,
+      "note": "Applied only after every frame passed authenticated decryption."
+    },
+    "key_saved": false
+  },
+  {
+    "timestamp": "2026-11-23T02:43:24+05:30",
+    "algorithm": "ascon",
+    "session_id": "26b5d624ce4a46b8",
+    "capture_seconds": 38,
+    "recovered_audio_seconds": 38.12,
+    "authenticated_frames": 950,
+    "rejected_packets": 0,
+    "rejection_reasons": {},
+    "concealed_missing_frames": 26,
+    "packet_loss_percent": 0.11,
+    "late_frames": 23,
+    "pending_at_stop": 0,
+    "ciphertext_udp_bytes": 649800,
+    "mean_desktop_verify_decrypt_us": 4251.23,
+    "sender_stop": "STOPPED frames=951 lost=0",
+    "relay_wifi_ready": true,
+    "bluetooth_peer_discovered": true,
+    "last_relay_counters": "RELAY_STATUS forwarded=951 invalid=0 udp_errors=0 bt_dropped_bytes=0 bt_buffered=0 rssi=-39 rx_buffered=0 heap=42488",
+    "final_relay_counters": "RELAY_STATUS forwarded=951 invalid=0 udp_errors=0 bt_dropped_bytes=0 bt_buffered=0 rssi=-39 rx_buffered=0 heap=42488",
+    "sender_firmware": "sender-20261122.2",
+    "relay_firmware": "relay-20261122.2",
+    "pipeline_stages": {
+      "microphone": true,
+      "encryption": true,
+      "bluetooth": true,
+      "relay": true,
+      "wifi": true,
+      "authentication": true,
+      "wav": true
+    },
+    "microphone": {
+      "mic_peak": 807,
+      "mic_rms": 196,
+      "i2s_errors": 0
+    },
+    "sender_frames_reported": 951,
+    "audio_quality": {
+      "samples": 304960,
+      "peak": 32768,
+      "rms": 5402.13,
+      "clipped_percent": 0.4981
+    },
+    "network": {
+      "forwarded": 951,
+      "invalid": 0,
+      "udp_errors": 0,
+      "bt_dropped_bytes": 0,
+      "bt_buffered": 0,
+      "rssi": -39,
+      "heap": 42488
+    },
+    "wifi_rssi_dbm": -39,
+    "tamper_demo": {
+      "tampered_packet_rejected": true,
+      "audio_released": false,
+      "scope": "Local self-test; live capture was not modified."
+    },
+    "result": "PASS",
+    "output_wav": "results\\live_received.wav",
+    "authenticated_raw_wav": "results\\live_received_authenticated_raw.wav",
+    "audio_conditioning": {
+      "input_peak": 39021.7,
+      "input_rms": 5283.8,
+      "gain_x": 0.718,
+      "output_peak": 28000,
+      "output_rms": 3791.4,
+      "high_pass_hz": 40.0,
+      "note": "Applied only after every frame passed authenticated decryption."
+    },
+    "key_saved": false
+  },
+  {
+    "timestamp": "2026-11-23T15:38:02+05:30",
+    "algorithm": "ascon",
+    "session_id": "11e5536e52656f1a",
+    "capture_seconds": 15,
+    "recovered_audio_seconds": 15.32,
+    "authenticated_frames": 327,
+    "rejected_packets": 0,
+    "rejection_reasons": {},
+    "concealed_missing_frames": 112,
+    "packet_loss_percent": 13.72,
+    "late_frames": 56,
+    "pending_at_stop": 0,
+    "ciphertext_udp_bytes": 223668,
+    "mean_desktop_verify_decrypt_us": 2542.15,
+    "sender_stop": "STOPPED frames=379 lost=0",
+    "relay_wifi_ready": true,
+    "bluetooth_peer_discovered": true,
+    "last_relay_counters": "RELAY_STATUS forwarded=351 invalid=0 udp_errors=28 bt_dropped_bytes=0 bt_buffered=0 rssi=-51 rx_buffered=0 heap=22808",
+    "final_relay_counters": "RELAY_STATUS forwarded=351 invalid=0 udp_errors=28 bt_dropped_bytes=0 bt_buffered=0 rssi=-51 rx_buffered=0 heap=22808",
+    "sender_firmware": "sender-20261122.2",
+    "relay_firmware": "relay-20261122.2",
+    "pipeline_stages": {
+      "microphone": true,
+      "encryption": true,
+      "bluetooth": true,
+      "relay": true,
+      "wifi": true,
+      "authentication": true,
+      "wav": true
+    },
+    "microphone": {
+      "mic_peak": 11755,
+      "mic_rms": 2440,
+      "i2s_errors": 0
+    },
+    "sender_frames_reported": 379,
+    "audio_quality": {
+      "samples": 122560,
+      "peak": 16458,
+      "rms": 2277.73,
+      "clipped_percent": 0.0
+    },
+    "network": {
+      "forwarded": 351,
+      "invalid": 0,
+      "udp_errors": 28,
+      "bt_dropped_bytes": 0,
+      "bt_buffered": 0,
+      "rssi": -51,
+      "heap": 22808
+    },
+    "wifi_rssi_dbm": -51,
+    "tamper_demo": {
+      "tampered_packet_rejected": true,
+      "audio_released": false,
+      "scope": "Local self-test; live capture was not modified."
+    },
+    "result": "PARTIAL",
+    "output_wav": "results\\live_received.wav",
+    "authenticated_raw_wav": "results\\live_received_authenticated_raw.wav",
+    "audio_conditioning": {
+      "input_peak": 17922.6,
+      "input_rms": 2092.1,
+      "gain_x": 1.562,
+      "output_peak": 28000,
+      "output_rms": 3268.4,
+      "high_pass_hz": 40.0,
+      "note": "Applied only after every frame passed authenticated decryption."
+    },
+    "key_saved": false
+  },
+  {
+    "timestamp": "2026-11-23T15:41:00+05:30",
+    "algorithm": "caalc",
+    "session_id": "95699b7c6a817430",
+    "capture_seconds": 30,
+    "recovered_audio_seconds": 30.08,
+    "authenticated_frames": 517,
+    "rejected_packets": 0,
+    "rejection_reasons": {},
+    "concealed_missing_frames": 305,
+    "packet_loss_percent": 31.25,
+    "late_frames": 70,
+    "pending_at_stop": 0,
+    "ciphertext_udp_bytes": 353628,
+    "mean_desktop_verify_decrypt_us": 13192.4,
+    "sender_stop": "STOPPED frames=752 lost=0",
+    "relay_wifi_ready": true,
+    "bluetooth_peer_discovered": true,
+    "last_relay_counters": "RELAY_STATUS forwarded=517 invalid=0 udp_errors=235 bt_dropped_bytes=0 bt_buffered=0 rssi=-48 rx_buffered=0 heap=42996",
+    "final_relay_counters": "RELAY_STATUS forwarded=517 invalid=0 udp_errors=235 bt_dropped_bytes=0 bt_buffered=0 rssi=-48 rx_buffered=0 heap=42996",
+    "sender_firmware": "sender-20261122.2",
+    "relay_firmware": "relay-20261122.2",
+    "pipeline_stages": {
+      "microphone": true,
+      "encryption": true,
+      "bluetooth": true,
+      "relay": true,
+      "wifi": true,
+      "authentication": true,
+      "wav": true
+    },
+    "microphone": {
+      "mic_peak": 15295,
+      "mic_rms": 2332,
+      "i2s_errors": 0
+    },
+    "sender_frames_reported": 752,
+    "audio_quality": {
+      "samples": 240640,
+      "peak": 21378,
+      "rms": 1942.64,
+      "clipped_percent": 0.0
+    },
+    "network": {
+      "forwarded": 517,
+      "invalid": 0,
+      "udp_errors": 235,
+      "bt_dropped_bytes": 0,
+      "bt_buffered": 0,
+      "rssi": -48,
+      "heap": 42996
+    },
+    "wifi_rssi_dbm": -48,
+    "tamper_demo": {
+      "tampered_packet_rejected": true,
+      "audio_released": false,
+      "scope": "Local self-test; live capture was not modified."
+    },
+    "result": "PARTIAL",
+    "output_wav": "results\\live_received.wav",
+    "authenticated_raw_wav": "results\\live_received_authenticated_raw.wav",
+    "audio_conditioning": {
+      "input_peak": 20657.3,
+      "input_rms": 1858.2,
+      "gain_x": 1.355,
+      "output_peak": 28000,
+      "output_rms": 2518.7,
+      "high_pass_hz": 40.0,
+      "note": "Applied only after every frame passed authenticated decryption."
+    },
+    "key_saved": false
+  },
+  {
+    "timestamp": "2026-11-23T16:31:57+05:30",
+    "algorithm": "caalc",
+    "session_id": "aa2c6f2b5478efb7",
+    "capture_seconds": 19,
+    "recovered_audio_seconds": 19.12,
+    "authenticated_frames": 476,
+    "rejected_packets": 0,
+    "rejection_reasons": {},
+    "concealed_missing_frames": 168,
+    "packet_loss_percent": 0.21,
+    "late_frames": 166,
+    "pending_at_stop": 0,
+    "ciphertext_udp_bytes": 325584,
+    "mean_desktop_verify_decrypt_us": 29699.59,
+    "sender_stop": "STOPPED frames=477 lost=0",
+    "relay_wifi_ready": true,
+    "bluetooth_peer_discovered": true,
+    "last_relay_counters": "RELAY_STATUS forwarded=477 invalid=0 udp_errors=0 bt_dropped_bytes=0 bt_buffered=0 rssi=-53 rx_buffered=0 heap=42896",
+    "final_relay_counters": "RELAY_STATUS forwarded=477 invalid=0 udp_errors=0 bt_dropped_bytes=0 bt_buffered=0 rssi=-53 rx_buffered=0 heap=42896",
+    "sender_firmware": "sender-20261122.2",
+    "relay_firmware": "relay-20261122.2",
+    "pipeline_stages": {
+      "microphone": true,
+      "encryption": true,
+      "bluetooth": true,
+      "relay": true,
+      "wifi": true,
+      "authentication": true,
+      "wav": true
+    },
+    "microphone": {
+      "mic_peak": 14814,
+      "mic_rms": 2813,
+      "i2s_errors": 0
+    },
+    "sender_frames_reported": 477,
+    "audio_quality": {
+      "samples": 152960,
+      "peak": 16719,
+      "rms": 1935.45,
+      "clipped_percent": 0.0
+    },
+    "network": {
+      "forwarded": 477,
+      "invalid": 0,
+      "udp_errors": 0,
+      "bt_dropped_bytes": 0,
+      "bt_buffered": 0,
+      "rssi": -53,
+      "heap": 42896
+    },
+    "wifi_rssi_dbm": -53,
+    "tamper_demo": {
+      "tampered_packet_rejected": true,
+      "audio_released": false,
+      "scope": "Local self-test; live capture was not modified."
+    },
+    "result": "PASS",
+    "output_wav": "results\\live_received.wav",
+    "authenticated_raw_wav": "results\\live_received_authenticated_raw.wav",
+    "audio_conditioning": {
+      "input_peak": 15565.5,
+      "input_rms": 1560.2,
+      "gain_x": 1.799,
+      "output_peak": 28000,
+      "output_rms": 2806.6,
+      "high_pass_hz": 40.0,
+      "note": "Applied only after every frame passed authenticated decryption."
+    },
+    "key_saved": false
+  }
+]

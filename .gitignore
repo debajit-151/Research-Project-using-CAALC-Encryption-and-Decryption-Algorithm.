@@ -1,0 +1,30 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Native and Arduino build products
+build/
+*.so
+*.dylib
+*.dll
+*.o
+*.a
+
+# Local identity and session secrets
+identities/
+*.key
+*.pem
+*.secret
+*.config.json
+*.session.json
+
+# Locally generated captures and transient outputs
+*.wav
+*.caf
+*.log
+.DS_Store
+.streamlit/credentials.toml
+

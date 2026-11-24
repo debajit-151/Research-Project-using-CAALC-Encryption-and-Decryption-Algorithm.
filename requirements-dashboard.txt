@@ -1,0 +1,2 @@
+# Additional converter for the simplified dashboard; existing project dependencies remain.
+imageio-ffmpeg==0.6.0
